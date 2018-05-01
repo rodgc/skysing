@@ -11,6 +11,7 @@ import { LyricsComponent } from './player/lyrics/lyrics.component';
 import { PointsComponent } from './player/points/points.component';
 import { RecognitionService } from './player/speech/recognition.service';
 import { SpeechComponent } from './player/speech/speech.component';
+import { SongSelectionComponent } from './song-selection/song-selection.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { SpeechComponent } from './player/speech/speech.component';
     AudioComponent,
     LyricsComponent,
     PointsComponent,
-    SpeechComponent
+    SpeechComponent,
+    SongSelectionComponent
   ],
   imports: [
     BrowserModule
