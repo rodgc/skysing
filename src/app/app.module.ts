@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { SongsService } from './songs/songs.service';
@@ -25,7 +25,8 @@ import { SongSelectionComponent } from './song-selection/song-selection.componen
     SongSelectionComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpModule
   ],
   providers: [
     PlayerService,
