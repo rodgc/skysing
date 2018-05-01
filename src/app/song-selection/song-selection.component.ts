@@ -4,7 +4,7 @@ import { Song } from '../songs/song.interface'
 @Component({
   selector: 'song-selection',
   templateUrl: './song-selection.component.html',
-  styleUrls: ['./song-selection.component.css']
+  styleUrls: ['./song-selection.component.scss']
 })
 export class SongSelectionComponent implements OnInit {
 

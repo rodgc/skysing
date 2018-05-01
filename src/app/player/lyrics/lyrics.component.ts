@@ -14,7 +14,7 @@ export interface Line {
 @Component({
   selector: 'player-lyrics',
   templateUrl: './lyrics.component.html',
-  styleUrls: ['./lyrics.component.css']
+  styleUrls: ['./lyrics.component.scss']
 })
 export class LyricsComponent implements OnInit, OnDestroy, OnChanges {
 

@@ -12,8 +12,7 @@ import { RecognitionService } from './recognition.service'
 
 @Component({
   selector: 'player-speech',
-  templateUrl: './speech.component.html',
-  styleUrls: ['./speech.component.css']
+  templateUrl: './speech.component.html'
 })
 export class SpeechComponent implements OnInit, OnDestroy {
 

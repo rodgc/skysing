@@ -5,7 +5,7 @@ import { PlayerService } from '../player.service'
 @Component({
   selector: 'player-points',
   templateUrl: './points.component.html',
-  styleUrls: ['./points.component.css']
+  styleUrls: ['./points.component.scss']
 })
 export class PointsComponent implements OnInit, OnChanges, OnDestroy {
 

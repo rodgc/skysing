@@ -6,7 +6,7 @@ import { Song } from '../songs/song.interface';
 @Component({
   selector: 'Player',
   templateUrl: './player.component.html',
-  styleUrls: ['./player.component.css']
+  styleUrls: ['./player.component.scss']
 })
 export class PlayerComponent implements OnChanges {
   @Input() currentSong: Song

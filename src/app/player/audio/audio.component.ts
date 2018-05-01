@@ -5,7 +5,7 @@ import { PlayerService } from '../player.service'
 @Component({
   selector: 'player-audio',
   templateUrl: './audio.component.html',
-  styleUrls: ['./audio.component.css']
+  styleUrls: ['./audio.component.scss']
 })
 export class AudioComponent implements OnInit, AfterViewInit, OnDestroy {
 
