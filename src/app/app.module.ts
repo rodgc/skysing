@@ -10,6 +10,7 @@ import { AudioComponent } from './player/audio/audio.component';
 import { LyricsComponent } from './player/lyrics/lyrics.component';
 import { PointsComponent } from './player/points/points.component';
 import { RecognitionService } from './player/speech/recognition.service';
+import { SpeechComponent } from './player/speech/speech.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { RecognitionService } from './player/speech/recognition.service';
     PlayerComponent,
     AudioComponent,
     LyricsComponent,
-    PointsComponent
+    PointsComponent,
+    SpeechComponent
   ],
   imports: [
     BrowserModule
