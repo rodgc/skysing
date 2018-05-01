@@ -5,13 +5,14 @@
     </div>
 
     <div class="app-body">
-      <div class="app-body-content" *ngIf="currentSong">
+      <div class="app-body-content" *ngIf="currentSong; else noSongSelected">
         <Player [currentSong]="currentSong"></Player>
       </div>
-
-      <div class="app-body-songlist p1" *ngIf="!currentSong">
-        <song-selection [songList]="songList" [currentSong]="currentSong" (onChooseSong)="handleChooseSong($event)"></song-selection>
-      </div>
+      <ng-template #noSongSelected>
+        <div class="app-body-songlist p1">
+          <song-selection [songList]="songList" [currentSong]="currentSong" (onChooseSong)="handleChooseSong($event)"></song-selection>
+        </div>
+      </ng-template>
     </div>
 
     <button class="app-backbutton" *ngIf="currentSong" (click)="handleClearCurrentSong()">
