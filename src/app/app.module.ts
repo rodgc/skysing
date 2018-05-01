@@ -9,6 +9,7 @@ import { PlayerComponent } from './player/player.component';
 import { AudioComponent } from './player/audio/audio.component';
 import { LyricsComponent } from './player/lyrics/lyrics.component';
 import { PointsComponent } from './player/points/points.component';
+import { RecognitionService } from './player/speech/recognition.service';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { PointsComponent } from './player/points/points.component';
   ],
   providers: [
     PlayerService,
-    SongsService
+    SongsService,
+    RecognitionService
   ],
   bootstrap: [AppComponent]
 })
