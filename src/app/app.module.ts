@@ -8,6 +8,7 @@ import { PlayerService } from './player/player.service';
 import { PlayerComponent } from './player/player.component';
 import { AudioComponent } from './player/audio/audio.component';
 import { LyricsComponent } from './player/lyrics/lyrics.component';
+import { PointsComponent } from './player/points/points.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { LyricsComponent } from './player/lyrics/lyrics.component';
     AppComponent,
     PlayerComponent,
     AudioComponent,
-    LyricsComponent
+    LyricsComponent,
+    PointsComponent
   ],
   imports: [
     BrowserModule
