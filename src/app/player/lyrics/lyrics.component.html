@@ -1,0 +1,5 @@
+<div *ngIf="lyrics">
+  <p *ngFor="let line of lines" [class.active]="line.index === currentLineIndex">
+    {{ line.text }}
+  </p>
+</div>

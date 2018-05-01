@@ -7,13 +7,15 @@ import { SongsService } from './songs/songs.service';
 import { PlayerService } from './player/player.service';
 import { PlayerComponent } from './player/player.component';
 import { AudioComponent } from './player/audio/audio.component';
+import { LyricsComponent } from './player/lyrics/lyrics.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     PlayerComponent,
-    AudioComponent
+    AudioComponent,
+    LyricsComponent
   ],
   imports: [
     BrowserModule
